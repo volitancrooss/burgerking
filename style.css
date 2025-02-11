@@ -26,6 +26,7 @@ nav {
   padding: 10px 0;
 }
 
+
 /* Estilos del menú (lista) */
 ul {
   display: flex;
@@ -64,6 +65,7 @@ nav button {
 #registerBtn a {
   color: white;
   font-size: 16px;
+  
 }
 
 #cartBtn {
@@ -86,7 +88,7 @@ nav button {
   position: relative;
 }
 
-ul.dropdown {
+ul.ver-list {
   display: none;
   position: absolute;
   width: 300px;
@@ -113,17 +115,17 @@ ul.dropdown {
     }
   }
 
-ul.dropdown li {
+ul.ver-list li {
   padding: 10px 0;
 }
 
-#VerMas:hover ul.dropdown {
+#VerMas:hover ul.ver-list {
   display: block;
   animation: slideDown 0.5s ease forwards;
   
 }
 
-.dropdown li a:hover {
+.ver-list li a:hover {
   color: black !important;
   text-decoration: underline;
 }
@@ -154,19 +156,19 @@ ul.dropdown li {
     padding: 5px 0;
   }
   
-  ul.dropdown {
+  ul.ver-list {
     width: 700px;
     height: 270px;
     
   }
 
-  #VerMas ul.dropdown {
+  #VerMas ul.ver-list {
     position: static;
     padding: 5px 0;
     background-color: transparent;
   }
   
-  #VerMas ul.dropdown li {
+  #VerMas ul.ver-list li {
     padding: 5px 0;
   }
   
